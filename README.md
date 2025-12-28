@@ -19,7 +19,7 @@ uv tool install ty
 # Download from https://github.com/elixir-lang/expert/releases
 ```
 
-Ensure `ty` and `start_expert` are in your PATH.
+Ensure `ty` and `expert` are in your PATH.
 
 ## Installation
 
