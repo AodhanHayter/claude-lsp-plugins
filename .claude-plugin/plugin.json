@@ -1,0 +1,8 @@
+{
+  "name": "claude-lsp-plugins",
+  "version": "0.1.0",
+  "description": "LSP configurations for claude-code",
+  "author": {
+    "name": "Aodhan Hayter"
+  }
+}
