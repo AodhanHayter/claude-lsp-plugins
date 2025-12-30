@@ -1,0 +1,36 @@
+{
+  "name": "lsp-configs",
+  "version": "0.1.0",
+  "description": "LSP configurations for Python, Elixir, and Nix",
+  "author": {
+    "name": "Aodhan Hayter"
+  },
+  "license": "MIT",
+  "lspServers": {
+    "python": {
+      "command": "ty",
+      "args": ["server"],
+      "extensionToLanguage": {
+        ".py": "python",
+        ".pyi": "python",
+        ".pyw": "python"
+      }
+    },
+    "elixir": {
+      "command": "expert",
+      "args": ["--stdio"],
+      "extensionToLanguage": {
+        ".ex": "elixir",
+        ".exs": "elixir",
+        ".heex": "elixir",
+        ".eex": "elixir"
+      }
+    },
+    "nix": {
+      "command": "nil",
+      "extensionToLanguage": {
+        ".nix": "nix"
+      }
+    }
+  }
+}
