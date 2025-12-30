@@ -25,5 +25,16 @@
     "initializationOptions": {},
     "settings": {},
     "maxRestarts": 3
+  },
+  "nix": {
+    "command": "nil",
+    "args": [],
+    "extensionToLanguage": {
+      ".nix": "nix"
+    },
+    "transport": "stdio",
+    "initializationOptions": {},
+    "settings": {},
+    "maxRestarts": 3
   }
 }
