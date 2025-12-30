@@ -6,6 +6,7 @@ LSP configurations for Claude Code.
 
 - **Python** via [ty](https://github.com/astral-sh/ty)
 - **Elixir** via [expert](https://github.com/elixir-lang/expert)
+- **Nix** via [nil](https://github.com/oxalica/nil)
 
 ## Prerequisites
 
@@ -17,9 +18,12 @@ uv tool install ty
 
 # Elixir (expert)
 # Download from https://github.com/elixir-lang/expert/releases
+
+# Nix (nil)
+nix profile install nixpkgs#nil
 ```
 
-Ensure `ty` and `expert` are in your PATH.
+Ensure `ty`, `expert`, and `nil` are in your PATH.
 
 ## Installation
 
