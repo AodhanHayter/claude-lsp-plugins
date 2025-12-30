@@ -1,0 +1,14 @@
+{
+  "name": "claude-lsp-plugins",
+  "owner": {
+    "name": "Aodhan Hayter"
+  },
+  "plugins": [
+    {
+      "name": "claude-lsp-plugins",
+      "source": ".",
+      "description": "LSP configurations for claude-code",
+      "keywords": ["lsp", "python", "elixir", "nix"]
+    }
+  ]
+}
