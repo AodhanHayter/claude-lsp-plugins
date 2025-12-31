@@ -5,10 +5,56 @@
   },
   "plugins": [
     {
-      "name": "lsp-configs",
-      "source": "./plugins/lsp-configs",
-      "description": "LSP configurations for Python, Elixir, and Nix",
-      "keywords": ["lsp", "python", "elixir", "nix"]
+      "name": "nix-lsp",
+      "description": "Nix language server (nil) for code intelligence",
+      "version": "1.0.0",
+      "source": "./plugins/nix-lsp",
+      "category": "development",
+      "lspServers": {
+        "nix": {
+          "command": "nil",
+          "extensionToLanguage": {
+            ".nix": "nix"
+          }
+        }
+      }
+    },
+    {
+      "name": "python-lsp",
+      "description": "Python language server (ty) for code intelligence",
+      "version": "1.0.0",
+      "source": "./plugins/python-lsp",
+      "category": "development",
+      "lspServers": {
+        "python": {
+          "command": "ty",
+          "args": ["server"],
+          "extensionToLanguage": {
+            ".py": "python",
+            ".pyi": "python",
+            ".pyw": "python"
+          }
+        }
+      }
+    },
+    {
+      "name": "elixir-lsp",
+      "description": "Elixir language server (expert) for code intelligence",
+      "version": "1.0.0",
+      "source": "./plugins/elixir-lsp",
+      "category": "development",
+      "lspServers": {
+        "elixir": {
+          "command": "expert",
+          "args": ["--stdio"],
+          "extensionToLanguage": {
+            ".ex": "elixir",
+            ".exs": "elixir",
+            ".heex": "elixir",
+            ".eex": "elixir"
+          }
+        }
+      }
     }
   ]
 }

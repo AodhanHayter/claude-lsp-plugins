@@ -1,0 +1,9 @@
+{
+  "name": "nix-lsp",
+  "version": "1.0.0",
+  "description": "Nix language server (nil) for code intelligence",
+  "author": {
+    "name": "Aodhan Hayter"
+  },
+  "license": "MIT"
+}

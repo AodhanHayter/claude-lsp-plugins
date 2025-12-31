@@ -1,0 +1,9 @@
+{
+  "name": "elixir-lsp",
+  "version": "1.0.0",
+  "description": "Elixir language server (expert) for code intelligence",
+  "author": {
+    "name": "Aodhan Hayter"
+  },
+  "license": "MIT"
+}
