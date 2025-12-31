@@ -7,7 +7,7 @@
     {
       "name": "nix-lsp",
       "description": "Nix language server (nil) for code intelligence",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/nix-lsp",
       "category": "development",
       "lspServers": {
@@ -22,7 +22,7 @@
     {
       "name": "python-lsp",
       "description": "Python language server (ty) for code intelligence",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/python-lsp",
       "category": "development",
       "lspServers": {
@@ -40,7 +40,7 @@
     {
       "name": "elixir-lsp",
       "description": "Elixir language server (expert) for code intelligence",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/elixir-lsp",
       "category": "development",
       "lspServers": {

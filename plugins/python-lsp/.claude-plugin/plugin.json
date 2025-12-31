@@ -1,9 +1,0 @@
-{
-  "name": "python-lsp",
-  "version": "1.0.0",
-  "description": "Python language server (ty) for code intelligence",
-  "author": {
-    "name": "Aodhan Hayter"
-  },
-  "license": "MIT"
-}
